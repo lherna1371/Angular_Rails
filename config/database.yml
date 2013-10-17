@@ -1,0 +1,25 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_angular_development
+  pool: 5
+  timeout: 5000
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_angular_test
+  pool: 5
+  timeout: 5000
+  host: localhost
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: rails_angular_production
+  pool: 5
+  timeout: 5000
+
